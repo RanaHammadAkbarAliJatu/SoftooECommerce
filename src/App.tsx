@@ -1,9 +1,17 @@
 import React from 'react';
 import AppNavigator from './navigation/AppNavigator';
-// @ts-ignore
-console.disableYellowBox = true;
+import {Provider} from 'react-redux';
+import { store } from './store/store'
+
+import {LogBox} from 'react-native';
+LogBox.ignoreAllLogs(); //Ignore all log notifications
+
 function App(): React.JSX.Element {
-  return <AppNavigator />;
+  return (
+    <Provider store={store}>
+      <AppNavigator />
+    </Provider>
+  );
 }
 
 export default App;

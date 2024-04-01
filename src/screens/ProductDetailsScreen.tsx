@@ -48,7 +48,6 @@ const ProductDescription = styled.Text`
 const ProductDetails: React.FC<any> = ({route}) => {
   const {productId} = route.params;
   const [product, setProduct] = useState<Product | null>(null);
-  console.log(product, productId, 'productId');
   useEffect(() => {
     const loadProduct = async () => {
       try {
@@ -78,7 +77,7 @@ const ProductDetails: React.FC<any> = ({route}) => {
             <ProductPrice>Price: ${product.price}</ProductPrice>
           </Column>
           <Column>
-            <AddToCartButton />
+            <AddToCartButton item={product} />
           </Column>
         </Row>
       </Container>

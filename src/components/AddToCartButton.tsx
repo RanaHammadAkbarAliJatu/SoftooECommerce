@@ -2,6 +2,9 @@
 import React from 'react';
 // @ts-ignore
 import styled from 'styled-components';
+import { useDispatch } from 'react-redux';
+import { addItem } from '../store/cartSlice';
+import Product from '../types/Product';
 
 const ButtonContainer = styled.TouchableOpacity`
   background-color: #4a881f;
@@ -16,12 +19,16 @@ const ButtonText = styled.Text`
 `;
 
 type AddToCartButtonProps = {
-  onPress?: () => void;
+  item: Product;
 };
 
-const AddToCartButton: React.FC<AddToCartButtonProps> = ({onPress}) => {
+const AddToCartButton: React.FC<AddToCartButtonProps> = ({item}) => {
+  const dispatch = useDispatch();
+  const handleAddToCart = () => {
+    dispatch(addItem(item));
+  };
   return (
-    <ButtonContainer onPress={onPress}>
+    <ButtonContainer onPress={handleAddToCart}>
       <ButtonText>Add to Cart</ButtonText>
     </ButtonContainer>
   );

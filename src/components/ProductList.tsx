@@ -87,7 +87,7 @@ const ProductList: React.FC = () => {
                 <ProductPrice>{item.colour}</ProductPrice>
               </Column>
               <Column>
-                <AddToCartButton />
+                <AddToCartButton item={item} />
               </Column>
             </Row>
           </View>
