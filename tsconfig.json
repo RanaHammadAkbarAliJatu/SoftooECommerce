@@ -1,7 +1,10 @@
 {
   "extends": "@react-native/typescript-config/tsconfig.json",
-  "include": ["src/**/*.ts", "**/*.test.tsx", "**/*.spec.ts", "src/**/*.tsx"],
+  "include": ["src/**/*.ts", "**/*.test.tsx", "**/*.spec.ts", "src/**/*.tsx", "test/math.test.ts"],
   "exclude": ["node_modules"],
+  "compilerOptions": {
+    "types": ["jest"]
+  },
   "jest": {
     "globals": {
       "ts-jest": {
