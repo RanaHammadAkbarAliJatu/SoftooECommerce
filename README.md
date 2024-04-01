@@ -1,9 +1,10 @@
-
 # Getting Started
-![image](https://github.com/RanaHammadAkbarAliJatu/SoftooECommerce/assets/49291906/a64c46be-4bb3-478a-a477-f31b4feef6b1)
-![image](https://github.com/RanaHammadAkbarAliJatu/SoftooECommerce/assets/49291906/47488285-e9cb-46c6-865d-d1e24d8dba4a)
-![image](https://github.com/RanaHammadAkbarAliJatu/SoftooECommerce/assets/49291906/85677da3-fa4a-4005-a05e-245a2ae04494)
-![image](https://github.com/RanaHammadAkbarAliJatu/SoftooECommerce/assets/49291906/6c9f8210-ed7d-4c8b-953e-ba4254f74192)
+
+
+<img src="https://github.com/RanaHammadAkbarAliJatu/SoftooECommerce/assets/49291906/a64c46be-4bb3-478a-a477-f31b4feef6b1" alt="image" height="600">
+<img src="https://github.com/RanaHammadAkbarAliJatu/SoftooECommerce/assets/49291906/47488285-e9cb-46c6-865d-d1e24d8dba4a" alt="image" height="600">
+<img src="https://github.com/RanaHammadAkbarAliJatu/SoftooECommerce/assets/49291906/85677da3-fa4a-4005-a05e-245a2ae04494" alt="image" height="600">
+<img src="https://github.com/RanaHammadAkbarAliJatu/SoftooECommerce/assets/49291906/6c9f8210-ed7d-4c8b-953e-ba4254f74192" alt="image" height="600">
 
 
 
