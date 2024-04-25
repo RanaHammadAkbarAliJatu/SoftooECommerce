@@ -87,6 +87,7 @@ const BasketScreen: React.FC = () => {
         <ButtonRemove
           title="Remove"
           onPress={() => handleRemoveItem(item.id)}
+          testID={`remove-button-${item.id}`} 
           color="#e74c3c"
         />
         <ButtonQuantity

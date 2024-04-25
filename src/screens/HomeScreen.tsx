@@ -4,7 +4,7 @@ import ProductList from '../components/ProductList';
 
 const HomeScreen: React.FC = () => {
   return (
-    <View>
+    <View testID="product-list-HomeScreen">
       <ProductList />
     </View>
   );

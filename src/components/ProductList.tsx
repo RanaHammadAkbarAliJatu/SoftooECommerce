@@ -99,6 +99,7 @@ const ProductList: React.FC = () => {
   return (
     <SafeAreaView>
       <FlatList
+      testID={`product-list`}
         data={products}
         renderItem={renderProductItem}
         keyExtractor={(item) => item.id.toString()}

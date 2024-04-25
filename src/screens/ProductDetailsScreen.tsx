@@ -69,14 +69,14 @@ const ProductDetails: React.FC<any> = ({route}) => {
     <ScrollView style={{flex: 1}}>
       <Container>
         <ProductImage source={{uri: product.img}} resizeMode="contain" />
-        <ProductName>{product.name}</ProductName>
+        <ProductName testID="product-name">{product.name}</ProductName>
 
         <Row>
           <Column>
             <ProductDescription>Color: {product.colour}</ProductDescription>
             <ProductPrice>Price: ${product.price}</ProductPrice>
           </Column>
-          <Column>
+          <Column >
             <AddToCartButton item={product} />
           </Column>
         </Row>
