@@ -7,8 +7,9 @@
 <img src="https://github.com/RanaHammadAkbarAliJatu/SoftooECommerce/assets/49291906/6c9f8210-ed7d-4c8b-953e-ba4254f74192" alt="image" height="600">
 
 
+<img width="438" alt="image" src="https://github.com/RanaHammadAkbarAliJatu/SoftooECommerce/assets/49291906/ba665bf2-c3b2-4919-8419-796363383b10">
 
-
+all test cases is in a test foder
 ## Step 1: Start the Metro Server
 
 First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
